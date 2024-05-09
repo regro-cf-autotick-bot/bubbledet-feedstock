@@ -1,13 +1,13 @@
 {% set name = "BubbleDet" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/BubbleDet-{{ version }}.tar.gz
-  sha256: 8245ae8e0ec593eb421a7034e2594c2a5712b501f02c4781abf2d08d6cab780e
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bubbledet-{{ version }}.tar.gz
+  sha256: 5175ed2b0d363e62243cfdd5f88517d93bcdaa9e376abcc2118cf358c8695f20
 
 build:
   noarch: python
